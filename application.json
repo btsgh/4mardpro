@@ -3,6 +3,10 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Assets-test.appsmith.com",
+      "isDefault": false
     }
   ],
   "viewMode": false,

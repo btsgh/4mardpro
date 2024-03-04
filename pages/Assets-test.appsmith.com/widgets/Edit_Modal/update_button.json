@@ -1,0 +1,33 @@
+{
+    "labelTextSize": "0.875rem",
+    "boxShadow": "none",
+    "widgetName": "update_button",
+    "onClick": "{{UpdateFile.run(() => {ListFiles.run();resetWidget('update_file_picker');closeModal('Edit_Modal');})}}",
+    "rightColumn": 64,
+    "dynamicPropertyPathList": [
+        {"key": "onClick"},
+        {"key": "isDisabled"}
+    ],
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isDefaultClickDisabled": true,
+    "widgetId": "8lbthc9dml",
+    "topRow": 18,
+    "bottomRow": 22,
+    "isVisible": "true",
+    "type": "BUTTON_WIDGET",
+    "version": 1,
+    "recaptchaType": "V3",
+    "parentId": "6i7m9kpuky",
+    "isLoading": false,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
+    "leftColumn": 44,
+    "dynamicBindingPathList": [
+        {"key": "isDisabled"},
+        {"key": "borderRadius"},
+        {"key": "buttonColor"}
+    ],
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "buttonVariant": "PRIMARY",
+    "text": "Update",
+    "isDisabled": "{{update_file_picker.files.length == 0}}"
+}

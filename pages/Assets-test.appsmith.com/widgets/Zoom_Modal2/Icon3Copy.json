@@ -1,0 +1,22 @@
+{
+    "labelTextSize": "0.875rem",
+    "boxShadow": "none",
+    "widgetName": "Icon3Copy",
+    "rightColumn": 64,
+    "onClick": "{{closeModal('Zoom_Modal2')}}",
+    "iconName": "cross",
+    "buttonColor": "#2E3D49",
+    "widgetId": "8kw9kfcd5y",
+    "topRow": 1,
+    "bottomRow": 5,
+    "isVisible": "true",
+    "type": "ICON_BUTTON_WIDGET",
+    "version": 1,
+    "parentId": "80wzwajsst",
+    "isLoading": false,
+    "leftColumn": 56,
+    "dynamicBindingPathList": [],
+    "borderRadius": "0px",
+    "buttonVariant": "TERTIARY",
+    "iconSize": 24
+}
