@@ -1,26 +1,38 @@
 {
-    "labelTextSize": "0.875rem",
-    "boxShadow": "none",
-    "widgetName": "Button11",
-    "onClick": "{{\nDeleteFile.run(() => {closeModal('delete_modal'); \nListFiles.run();\n});\n}}",
-    "rightColumn": 64,
-    "dynamicPropertyPathList": [{"key": "onClick"}],
-    "buttonColor": "#DD4B34",
-    "isDefaultClickDisabled": true,
-    "widgetId": "hp22uj3dra",
-    "topRow": 17,
-    "bottomRow": 21,
-    "isVisible": "true",
-    "type": "BUTTON_WIDGET",
-    "version": 1,
-    "recaptchaType": "V3",
-    "parentId": "ozvpoudxz2",
-    "isLoading": false,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 48,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "buttonVariant": "PRIMARY",
-    "text": "Confirm",
-    "isDisabled": false
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 21,
+  "boxShadow": "none",
+  "buttonColor": "#DD4B34",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "true",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 48,
+  "onClick": "{{\nDeleteFile.run(() => {closeModal('delete_modal'); \nListFiles.run();\n});\n}}",
+  "parentId": "ozvpoudxz2",
+  "recaptchaType": "V3",
+  "rightColumn": 64,
+  "text": "Confirm",
+  "topRow": 17,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "hp22uj3dra",
+  "widgetName": "Button11"
 }
