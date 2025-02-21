@@ -32,6 +32,10 @@
     {
       "id": "Assets-test.appsmith.com",
       "isDefault": false
+    },
+    {
+      "id": "Gac",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {
