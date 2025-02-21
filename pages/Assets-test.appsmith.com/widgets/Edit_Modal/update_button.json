@@ -1,33 +1,47 @@
 {
-    "labelTextSize": "0.875rem",
-    "boxShadow": "none",
-    "widgetName": "update_button",
-    "onClick": "{{UpdateFile.run(() => {ListFiles.run();resetWidget('update_file_picker');closeModal('Edit_Modal');})}}",
-    "rightColumn": 64,
-    "dynamicPropertyPathList": [
-        {"key": "onClick"},
-        {"key": "isDisabled"}
-    ],
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isDefaultClickDisabled": true,
-    "widgetId": "8lbthc9dml",
-    "topRow": 18,
-    "bottomRow": 22,
-    "isVisible": "true",
-    "type": "BUTTON_WIDGET",
-    "version": 1,
-    "recaptchaType": "V3",
-    "parentId": "6i7m9kpuky",
-    "isLoading": false,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 44,
-    "dynamicBindingPathList": [
-        {"key": "isDisabled"},
-        {"key": "borderRadius"},
-        {"key": "buttonColor"}
-    ],
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "buttonVariant": "PRIMARY",
-    "text": "Update",
-    "isDisabled": "{{update_file_picker.files.length == 0}}"
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 22,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{update_file_picker.files.length == 0}}",
+  "isLoading": false,
+  "isVisible": "true",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 44,
+  "onClick": "{{UpdateFile.run(() => {ListFiles.run();resetWidget('update_file_picker');closeModal('Edit_Modal');})}}",
+  "parentId": "6i7m9kpuky",
+  "recaptchaType": "V3",
+  "rightColumn": 64,
+  "text": "Update",
+  "topRow": 18,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "8lbthc9dml",
+  "widgetName": "update_button"
 }
